@@ -4,12 +4,13 @@
 
 html,
 body {
-  font-family: "Source Code Pro", monospace;
-  margin: auto;
-  display: block;
-  padding: 20px;
-  background: rgb(231,231,222);
-  background: linear-gradient(90deg, rgba(231,231,222,1) 37%, rgba(165,144,191,1) 84%, rgba(139,83,195,1) 99%);
+
+  /* BACKGROUND  */
+background: url(assets/galaxy.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 /*Canvas style is used for styling the three.js window*/
